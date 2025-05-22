@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from config import ROOM_ID, FILTERS
+from .config import ROOM_ID, FILTERS
 
 app = FastAPI()
 _store = []
